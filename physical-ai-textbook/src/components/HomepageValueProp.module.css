@@ -1,0 +1,30 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+}
+
+.valueSection {
+  margin-bottom: 4rem;
+}
+
+.valueSection h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 996px) {
+  .features {
+    padding: 2rem 0;
+  }
+
+  .valueSection {
+    margin-bottom: 3rem;
+  }
+
+  .valueSection h2 {
+    font-size: 1.5rem;
+  }
+}

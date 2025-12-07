@@ -1,0 +1,75 @@
+/* Cyber-blue theme variables */
+:root {
+  --cyber-bg-primary: #0A192F;
+  --cyber-accent-primary: #64FFDA;
+  --ifm-color-primary: #64FFDA;
+  --cyber-text-primary: #CCD6F6;
+  --cyber-accent-secondary: #F0AD4E;
+}
+
+/* Apply cyber-blue theme to main content */
+html[data-theme='dark'] {
+  --ifm-background-color: var(--cyber-bg-primary);
+  --ifm-color-primary: var(--cyber-accent-primary);
+  --ifm-color-primary-contrast-foreground: var(--cyber-text-primary);
+  --ifm-font-color-base: var(--cyber-text-primary);
+}
+
+/* Light theme background colors */
+html[data-theme='light'] {
+  --ifm-background-color: #FFFFFF;
+}
+
+html[data-theme='light'] body {
+  background-color: #FFFFFF;
+}
+
+html[data-theme='light'] main {
+  background-color: #FFFFFF;
+}
+
+/* Light theme button contrast fixes */
+html[data-theme='light'] .navbar-signup-btn {
+  color: #0A192F !important;
+  border-color: #0A192F !important;
+}
+
+html[data-theme='light'] .navbar-signup-btn:hover {
+  background-color: #0A192F !important;
+  color: #FFFFFF !important;
+}
+
+/* General button contrast in light theme */
+html[data-theme='light'] button {
+  color: #0A192F !important;
+  border-color: #0A192F !important;
+}
+
+/* Custom styling for homepage hero */
+.hero--primary {
+  background-color: var(--cyber-bg-primary);
+  color: var(--cyber-text-primary);
+}
+
+/* Custom button styling */
+.button--primary {
+  background-color: var(--cyber-accent-primary);
+  border-color: var(--cyber-accent-primary);
+  color: var(--cyber-bg-primary);
+}
+
+.button--secondary {
+  border-color: var(--cyber-accent-primary);
+  color: var(--cyber-accent-primary);
+}
+
+/* Pill styling for homepage */
+.pill {
+  background-color: rgba(100, 255, 218, 0.1);
+  border: 1px solid var(--cyber-accent-primary);
+  color: var(--cyber-accent-primary);
+  padding: 4px 12px;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 4px;
+}

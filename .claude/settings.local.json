@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python backend/test_basic_functionality.py)",
+      "Bash(python backend/test_user_story_1.py)",
+      "Bash(python backend/test_user_story_2.py)",
+      "Bash(python backend/test_user_story_3.py)",
+      "Bash(python ingest_docs.py)",
+      "Bash(docker run -d -p 6333:6333 -p 6334:6334 --name qdrant-chatbot qdrant/qdrant)",
+      "Bash(curl http://localhost:6333)",
+      "Bash(python -c \"from src.api.main import app; print(''API import successful'')\")",
+      "Bash(timeout 30s python ingest_docs.py)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

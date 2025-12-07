@@ -1,55 +1,40 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+# Physical AI & Humanoid Robotics Textbook Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Educational Excellence
+All content must be technically accurate, pedagogically sound, and accessible to the target audience. Content must include practical examples, exercises, and real-world applications.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Technical Accuracy
+All technical content must be factually correct, up-to-date with current standards, and reviewed by domain experts. Code examples must be tested and functional.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Modular Structure
+Content must be organized in discrete, self-contained modules that can be consumed independently while maintaining coherent progression. Each module must have clear prerequisites.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Open Source Collaboration
+All content must be licensed appropriately for open collaboration. Contributions must follow established review processes and maintain quality standards.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Accessibility Standards
+All content must meet WCAG 2.1 AA accessibility standards. Alternative formats must be available for different learning needs and technical capabilities.
 
-### [PRINCIPLE_6_NAME]
+### Docusaurus Framework Compliance
+The project must use Docusaurus v3 with TypeScript as the foundation for the textbook website. All configuration files must be in TypeScript format.
 
+## Technical Architecture
+All technical implementations must adhere to the following requirements:
+- Framework: Docusaurus v3 (using the classic preset)
+- Language: TypeScript for all configuration files and custom components
+- Deployment Target: GitHub Pages (Configure `docusaurus.config.ts` for deployment)
+- Project Structure: Follow the specified directory organization with docs, src, and configuration files
 
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Content Organization
+The textbook must be organized into the following modules:
+- Module 1: ROS2 (Robot Operating System 2)
+- Module 2: Digital Twin
+- Module 3: AI Robot Brain
+- Module 4: Vision-Language-Action (VLA) Models
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+This constitution supersedes all other practices for the Physical AI & Humanoid Robotics textbook project. Amendments require explicit documentation and approval. All contributions must verify compliance with these principles. The project must maintain a clear versioning strategy following semantic versioning principles.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-06 | **Last Amended**: 2025-12-06
