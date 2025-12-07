@@ -15,15 +15,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-username.github.io',
+  url: 'https://physical-ai-textbook.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/physical-ai-textbook/',
+  // For Vercel deployment, use '/'
+  baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-username', // Usually your GitHub org/user name.
-  projectName: 'physical-ai-textbook', // Usually your repo name.
+  // Vercel deployment config.
+  organizationName: 'your-username', // Your GitHub org/user name.
+  projectName: 'physical-ai-textbook', // Your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -46,7 +45,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-username/physical-ai-textbook',
+            'https://github.com/your-username/physical-ai-textbook/edit/main/',
         },
         blog: {
           showReadingTime: true,
@@ -104,7 +103,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/your-repo',
+          href: 'https://github.com/your-username/physical-ai-textbook',
           label: 'GitHub',
           position: 'right',
         },
