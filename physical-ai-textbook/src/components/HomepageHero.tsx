@@ -15,7 +15,7 @@ const HomepageHero = () => {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/physical-ai-textbook/docs/module1-ros2/introduction">
+            to="/docs/module1-ros2/introduction">
             Start Reading
           </Link>
         </div>
